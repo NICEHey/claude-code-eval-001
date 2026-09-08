@@ -1,0 +1,13 @@
+{
+  "station": {"id": "river-a", "name": "合成监测站 A", "flood_level": 10.0, "recovery_level": 8.0},
+  "batch": {
+    "batch_id": "example-001",
+    "readings": [
+      {"station_id": "river-a", "observed_at": "2026-09-01T08:00:00+08:00", "level": 7.0},
+      {"station_id": "river-a", "observed_at": "2026-09-01T08:10:00+08:00", "level": 10.0},
+      {"station_id": "river-a", "observed_at": "2026-09-01T08:20:00+08:00", "level": 12.0},
+      {"station_id": "river-a", "observed_at": "2026-09-01T08:30:00+08:00", "level": 9.0},
+      {"station_id": "river-a", "observed_at": "2026-09-01T08:40:00+08:00", "level": 8.0}
+    ]
+  }
+}
